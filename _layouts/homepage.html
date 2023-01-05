@@ -1,0 +1,22 @@
+---
+layout: default
+type: homepage
+---
+<header>
+    <div class="container">
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.description }}</p>
+    </div>
+</header>
+<main>
+{%- if site.posts.size > 0 -%}
+<section class="articles">
+    <div class="container">
+        <header>
+            <h2>Articles</h2>
+        </header>
+        {{- content -}}
+    </div>
+</section>
+{%- endif -%}
+</main>

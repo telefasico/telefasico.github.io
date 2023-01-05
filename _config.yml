@@ -1,6 +1,16 @@
-title: "Rober TF"
+title: "Taller telefásico"
 description: "Lorem Ipsum"
 # date_format: "%B %d, %Y"
 # permalink: "pretty"
-# lang: "en"
-# exclude: ['node_modules', "README.md", "package.json", "*.lock", ".idea", "Gemfile", "build", "misc", "assets", "tasks", "Makefile"]
+#lang: "en"
+exclude: ["Gemfile", "Gemfile.lock", "vendor/", "README.md", "Makefile", "docker-compose.yml"]
+
+author:
+  name: "Rober TF"
+  github: telefasico
+  email: "taller(at)telefasico.es"
+
+license:
+  name: "Licensed under Creative Commons Attribution-ShareAlike 4.0 International License"
+  label: "CC BY-SA 4.0"
+  url: https://creativecommons.org/licenses/by-sa/4.0/
